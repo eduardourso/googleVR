@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00950AF0FDD5D217DF29C502 /* Pods_GoogleVRiOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46294DC3C819471E82605C2D /* Pods_GoogleVRiOSTests.framework */; };
+		6B5515271D65D3D500A785A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5515261D65D3D500A785A1 /* AppDelegate.swift */; };
+		6B5515291D65D3D500A785A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5515281D65D3D500A785A1 /* ViewController.swift */; };
+		6B55152C1D65D3D500A785A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B55152A1D65D3D500A785A1 /* Main.storyboard */; };
+		6B55152E1D65D3D500A785A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B55152D1D65D3D500A785A1 /* Assets.xcassets */; };
+		6B5515311D65D3D500A785A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B55152F1D65D3D500A785A1 /* LaunchScreen.storyboard */; };
+		6B55153C1D65D3D600A785A1 /* GoogleVRiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B55153B1D65D3D600A785A1 /* GoogleVRiOSTests.swift */; };
+		D0852C6BF259489C8C2EF9C8 /* Pods_GoogleVRiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17141082FAD2571FD396232 /* Pods_GoogleVRiOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B5515381D65D3D600A785A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B55151B1D65D3D500A785A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5515221D65D3D500A785A1;
+			remoteInfo = GoogleVRiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033A10D54D68241CC83FEAA7 /* Pods-GoogleVRiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVRiOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVRiOS/Pods-GoogleVRiOS.debug.xcconfig"; sourceTree = "<group>"; };
+		46294DC3C819471E82605C2D /* Pods_GoogleVRiOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleVRiOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5515231D65D3D500A785A1 /* GoogleVRiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleVRiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5515261D65D3D500A785A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5515281D65D3D500A785A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B55152B1D65D3D500A785A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B55152D1D65D3D500A785A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5515301D65D3D500A785A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5515321D65D3D500A785A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5515371D65D3D600A785A1 /* GoogleVRiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleVRiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B55153B1D65D3D600A785A1 /* GoogleVRiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVRiOSTests.swift; sourceTree = "<group>"; };
+		6B55153D1D65D3D600A785A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D8B33D8F18CDEFCEE6B2184 /* Pods-GoogleVRiOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVRiOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVRiOSTests/Pods-GoogleVRiOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		A17141082FAD2571FD396232 /* Pods_GoogleVRiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleVRiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B43FFA40852B4FA5CEA7D4FC /* Pods-GoogleVRiOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVRiOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVRiOSTests/Pods-GoogleVRiOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB77DD019F0447B1B1C1E84C /* Pods-GoogleVRiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleVRiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleVRiOS/Pods-GoogleVRiOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5515201D65D3D500A785A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0852C6BF259489C8C2EF9C8 /* Pods_GoogleVRiOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5515341D65D3D600A785A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00950AF0FDD5D217DF29C502 /* Pods_GoogleVRiOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B55151A1D65D3D500A785A1 = {
+			isa = PBXGroup;
+			children = (
+				6B5515251D65D3D500A785A1 /* GoogleVRiOS */,
+				6B55153A1D65D3D600A785A1 /* GoogleVRiOSTests */,
+				6B5515241D65D3D500A785A1 /* Products */,
+				90527F0F305EF78E9A7EB47C /* Pods */,
+				AD1CD89C83004035FB2F34C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5515241D65D3D500A785A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5515231D65D3D500A785A1 /* GoogleVRiOS.app */,
+				6B5515371D65D3D600A785A1 /* GoogleVRiOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5515251D65D3D500A785A1 /* GoogleVRiOS */ = {
+			isa = PBXGroup;
+			children = (
+				6B5515261D65D3D500A785A1 /* AppDelegate.swift */,
+				6B5515281D65D3D500A785A1 /* ViewController.swift */,
+				6B55152A1D65D3D500A785A1 /* Main.storyboard */,
+				6B55152D1D65D3D500A785A1 /* Assets.xcassets */,
+				6B55152F1D65D3D500A785A1 /* LaunchScreen.storyboard */,
+				6B5515321D65D3D500A785A1 /* Info.plist */,
+			);
+			path = GoogleVRiOS;
+			sourceTree = "<group>";
+		};
+		6B55153A1D65D3D600A785A1 /* GoogleVRiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B55153B1D65D3D600A785A1 /* GoogleVRiOSTests.swift */,
+				6B55153D1D65D3D600A785A1 /* Info.plist */,
+			);
+			path = GoogleVRiOSTests;
+			sourceTree = "<group>";
+		};
+		90527F0F305EF78E9A7EB47C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				033A10D54D68241CC83FEAA7 /* Pods-GoogleVRiOS.debug.xcconfig */,
+				FB77DD019F0447B1B1C1E84C /* Pods-GoogleVRiOS.release.xcconfig */,
+				B43FFA40852B4FA5CEA7D4FC /* Pods-GoogleVRiOSTests.debug.xcconfig */,
+				8D8B33D8F18CDEFCEE6B2184 /* Pods-GoogleVRiOSTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD1CD89C83004035FB2F34C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A17141082FAD2571FD396232 /* Pods_GoogleVRiOS.framework */,
+				46294DC3C819471E82605C2D /* Pods_GoogleVRiOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5515221D65D3D500A785A1 /* GoogleVRiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5515401D65D3D600A785A1 /* Build configuration list for PBXNativeTarget "GoogleVRiOS" */;
+			buildPhases = (
+				DA2CD36A79EE0E73AB550AEC /* [CP] Check Pods Manifest.lock */,
+				6B55151F1D65D3D500A785A1 /* Sources */,
+				6B5515201D65D3D500A785A1 /* Frameworks */,
+				6B5515211D65D3D500A785A1 /* Resources */,
+				848428C777F724A1B2830987 /* [CP] Embed Pods Frameworks */,
+				6F7BA19CA50B1B940F970837 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleVRiOS;
+			productName = GoogleVRiOS;
+			productReference = 6B5515231D65D3D500A785A1 /* GoogleVRiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B5515361D65D3D600A785A1 /* GoogleVRiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5515431D65D3D600A785A1 /* Build configuration list for PBXNativeTarget "GoogleVRiOSTests" */;
+			buildPhases = (
+				5B5006131916B8F8A114C5F0 /* [CP] Check Pods Manifest.lock */,
+				6B5515331D65D3D600A785A1 /* Sources */,
+				6B5515341D65D3D600A785A1 /* Frameworks */,
+				6B5515351D65D3D600A785A1 /* Resources */,
+				3DB23FBF9061C625A52B5145 /* [CP] Embed Pods Frameworks */,
+				BD5906296404CA5A0FDE8836 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B5515391D65D3D600A785A1 /* PBXTargetDependency */,
+			);
+			name = GoogleVRiOSTests;
+			productName = GoogleVRiOSTests;
+			productReference = 6B5515371D65D3D600A785A1 /* GoogleVRiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B55151B1D65D3D500A785A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Eduardo Urso";
+				TargetAttributes = {
+					6B5515221D65D3D500A785A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6B5515361D65D3D600A785A1 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6B5515221D65D3D500A785A1;
+					};
+				};
+			};
+			buildConfigurationList = 6B55151E1D65D3D500A785A1 /* Build configuration list for PBXProject "GoogleVRiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B55151A1D65D3D500A785A1;
+			productRefGroup = 6B5515241D65D3D500A785A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5515221D65D3D500A785A1 /* GoogleVRiOS */,
+				6B5515361D65D3D600A785A1 /* GoogleVRiOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5515211D65D3D500A785A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5515311D65D3D500A785A1 /* LaunchScreen.storyboard in Resources */,
+				6B55152E1D65D3D500A785A1 /* Assets.xcassets in Resources */,
+				6B55152C1D65D3D500A785A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5515351D65D3D600A785A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DB23FBF9061C625A52B5145 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVRiOSTests/Pods-GoogleVRiOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B5006131916B8F8A114C5F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F7BA19CA50B1B940F970837 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVRiOS/Pods-GoogleVRiOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		848428C777F724A1B2830987 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVRiOS/Pods-GoogleVRiOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD5906296404CA5A0FDE8836 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleVRiOSTests/Pods-GoogleVRiOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA2CD36A79EE0E73AB550AEC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B55151F1D65D3D500A785A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5515291D65D3D500A785A1 /* ViewController.swift in Sources */,
+				6B5515271D65D3D500A785A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5515331D65D3D600A785A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B55153C1D65D3D600A785A1 /* GoogleVRiOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B5515391D65D3D600A785A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B5515221D65D3D500A785A1 /* GoogleVRiOS */;
+			targetProxy = 6B5515381D65D3D600A785A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B55152A1D65D3D500A785A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B55152B1D65D3D500A785A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B55152F1D65D3D500A785A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5515301D65D3D500A785A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B55153E1D65D3D600A785A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B55153F1D65D3D600A785A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5515411D65D3D600A785A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 033A10D54D68241CC83FEAA7 /* Pods-GoogleVRiOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleVRiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urso.GoogleVRiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B5515421D65D3D600A785A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB77DD019F0447B1B1C1E84C /* Pods-GoogleVRiOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleVRiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urso.GoogleVRiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6B5515441D65D3D600A785A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B43FFA40852B4FA5CEA7D4FC /* Pods-GoogleVRiOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleVRiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urso.GoogleVRiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleVRiOS.app/GoogleVRiOS";
+			};
+			name = Debug;
+		};
+		6B5515451D65D3D600A785A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D8B33D8F18CDEFCEE6B2184 /* Pods-GoogleVRiOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoogleVRiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.urso.GoogleVRiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleVRiOS.app/GoogleVRiOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B55151E1D65D3D500A785A1 /* Build configuration list for PBXProject "GoogleVRiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B55153E1D65D3D600A785A1 /* Debug */,
+				6B55153F1D65D3D600A785A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5515401D65D3D600A785A1 /* Build configuration list for PBXNativeTarget "GoogleVRiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5515411D65D3D600A785A1 /* Debug */,
+				6B5515421D65D3D600A785A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5515431D65D3D600A785A1 /* Build configuration list for PBXNativeTarget "GoogleVRiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5515441D65D3D600A785A1 /* Debug */,
+				6B5515451D65D3D600A785A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B55151B1D65D3D500A785A1 /* Project object */;
+}
